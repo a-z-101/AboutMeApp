@@ -17,7 +17,10 @@ struct ContentView: View {
                     .fontWeight(.regular)
                 Text("I'm Arita!")
                     .font(.title)
-                    .fontWeight(.semibold)
+                    .fontWeight(.bold)
+                Image("aritaPhoto")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
             }
             .padding()
         }
